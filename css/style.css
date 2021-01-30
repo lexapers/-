@@ -1,0 +1,395 @@
+.menu{
+    background-color: #797b79;
+    opacity: 90%;
+}
+
+.screen_saver img{
+    width: 100%;
+    text-align: center;
+}
+
+.screen_saver{
+    text-align: center;
+}
+
+.heading{
+    position: absolute;
+    width: 100%;
+    padding-top: 16%;
+}
+
+.h_1{
+    font-size: 72px;
+    color: #fefefe;
+    margin-bottom: 50px;
+}
+
+.inform{
+    margin-right: 55%;
+}
+
+.p_3{
+    max-width: 415px;
+    margin: auto;
+    font-size: 18px;
+    color: #fefefe;
+    font-family: "Myriad Pro";
+}
+
+.p_1{
+    max-width: 415px;
+    margin: auto;
+    margin-bottom: 80px;
+    font-size: 18px;
+    color: #fefefe;
+    font-weight: bold;
+    font-family: "Myriad Pro";
+}
+
+.button_to{
+    max-width: 350px;
+    margin: auto;
+}
+
+.more{
+    width: 288px;
+    height: 58px;
+    border-radius: 29px;
+    background-color: #d0a674;
+    font-size: 24px;
+    color: #fefefe;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 20px;
+    line-height: 55px;
+    transition: background 0.5s ease-in-out, 
+    color 0.5s ease-in-out, 
+    font-weight 0.1s ease-in-out;
+}
+
+.more:hover{
+    text-decoration: none;
+    color: #000;
+    background-color: #ff0000;
+    font-weight: bold;
+}
+
+.colls{
+    width: 288px;
+    height: 58px;
+    border-radius: 29px;
+    background-color: #d0a674;
+    font-size: 24px;
+    color: #fefefe;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 55px;
+    transition: background 0.5s ease-in-out, 
+    color 0.5s ease-in-out, 
+    font-weight 0.1s ease-in-out;
+}
+
+.colls:hover{
+    text-decoration: none;
+    color: #000;
+    background-color: #ff0000;
+    font-weight: bold;
+}
+
+.services{
+    text-align: center;
+}
+
+.h_2{
+    font-size: 48px;
+    color: #040404;
+    font-weight: bold;
+    padding-top: 230px;
+    padding-bottom: 55px;
+}
+
+.block{
+    background-color: #797b79;
+    border-radius: 50px;
+}
+
+.block img{
+    padding-top: 5px;
+    border-radius: 30px;
+}
+
+.h_3{
+    font-size: 30px;
+    color: #fefefe;
+    padding-top: 40px;
+}
+
+.p_2{
+    max-width: 300px;
+    height: 100px;
+    font-size: 18px;
+    color: #fefefe;
+    font-family: "Myriad Pro";
+    margin: auto;
+    padding-top: 20px;
+}
+
+.order{
+    width: 240px;
+    height: 51px;
+    margin-top: 30px;
+    border-radius: 19px;
+    background-color: #d0a674;
+    font-weight: bold;
+    color: #fefefe;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 20px;
+    line-height: 50px;
+    transition: background 0.5s ease-in-out, 
+    color 0.5s ease-in-out;
+}
+
+.order:hover{
+    text-decoration: none;
+    color: #000;
+    background-color: #ff0000;
+}
+
+.route{
+    text-align: center;
+}
+
+.route img{
+    border-radius: 335px;
+}
+
+.cost{
+    text-align: center;
+}
+
+.h_4{
+    font-size: 30px;
+    color: #040404;
+    font-weight: bold;
+    padding-top: 85px;
+    padding-bottom: 5px;
+}
+
+.footer{
+    background-color: #010101;
+    opacity: 80%;
+    margin-top: 200px;
+}
+
+.row1{
+    border-radius: 30px;
+}
+
+
+
+        /* АДАПТАЦИЯ */
+
+/* разрешение при (1366px)*/
+@media (max-width: 1366px)
+{
+    .inform{
+        margin-right: 45%;
+    }
+}
+
+/* разрешение при (1152px)*/
+@media (max-width: 1152px)
+{
+    .inform{
+        margin-right: 37%;
+    }
+}
+
+/* разрешение при (1024px) - iPad Pro*/
+@media (max-width: 1024px)
+{
+    .h_1{
+        font-size: 60px;
+    }
+
+    .p_1{
+        font-size: 14px;
+        margin-bottom: 5%;
+    }
+
+    .more{
+        width: 190px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 37px;
+    }
+
+    .colls{
+        width: 190px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 37px;
+    }
+
+    .h_2{
+        font-size: 36px;
+    }
+
+    .h_3{
+        font-size: 20px;
+    }
+
+    .p_2{
+        height: 70px;
+        font-size: 13px;
+    }
+
+    .order{
+        width: 190px;
+        height: 45px;
+        font-size: 14px;
+        line-height: 43px;
+    }
+
+    .h_4{
+        font-size: 21px;
+    }
+}
+
+/* разрешение при (768px) - iPad */
+@media (max-width: 768px)
+{
+    .h_1{
+        font-size: 37px;
+        margin-bottom: 3%;
+    }
+
+    .p_1{
+        font-size: 12px;
+        max-width: 290px;
+        margin-bottom: 7%;
+    }
+
+    .more{
+        width: 136px;
+        height: 34px;
+        font-size: 13px;
+        line-height: 31px;
+        margin-right: 2%;
+    }
+
+    .colls{
+        width: 136px;
+        height: 34px;
+        font-size: 13px;
+        line-height: 31px;
+    }
+
+    .h_2{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    .h_3{
+        font-size: 16px;
+        padding-top: 5px;
+    }
+
+    .p_2{
+        height: 70px;
+        font-size: 12px;
+        font-family: inherit;
+    }
+
+    .order{
+        width: 175px;
+        height: 40px;
+        font-size: 13px;
+        line-height: 37px;
+    }
+
+    .h_4{
+        font-size: 16px;
+        padding-top: 30px;
+        padding-bottom: 3px;
+    }
+
+    .footer{
+        margin-top: 10%;
+    }
+}
+
+/* разрешение при (414-375px) - iphone X-6/7/8 plus, iphone 6/7/8 */
+@media (max-width: 414px)
+{
+    .heading{
+        padding-top: 23%;
+    }
+
+    .inform{
+        margin-right: 15%;
+    }
+
+    .p_3{
+        font-size: 12px;
+    }
+
+    .h_1{
+        font-size: 30px;
+        margin-bottom: 3%;
+    }
+
+    .p_1{
+        font-size: 10px;
+        max-width: 170px;
+        margin-bottom: 16%;
+    }
+
+    .button_to{
+        max-width: 135px;
+    }
+
+    .h_2{
+        font-size: 25px;
+        max-width: 255px;
+        margin: auto;
+        padding-top: 195px;
+    }
+
+    .block{
+        margin-bottom: 20px;
+    }
+
+    .h_3{
+        font-size: 12px;
+    }
+
+    .h_4{
+        font-size: 14px;
+    }
+
+    .w-75{
+        width: 100%!important;
+    }
+}
+
+/* разрешение при (320px) - iphone 5/SE */
+@media (max-width: 320px)
+{
+    .h_3{
+        font-size: 8px;
+    }
+
+    .p_1{
+        font-size: 9px;
+    }
+
+    .inform{
+        margin-right: 3%;
+    }
+
+    .p_3{
+        font-size: 11px;
+    }
+}
